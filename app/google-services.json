@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "537090303006",
+    "firebase_url": "https://knocksense-5319d.firebaseio.com",
+    "project_id": "knocksense-5319d",
+    "storage_bucket": "knocksense-5319d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537090303006:android:c70d907d484c1836",
+        "android_client_info": {
+          "package_name": "com.project.nikhil.knock_sense"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537090303006-ctri439cp87h7sipc794oos2ndo7i49m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.nikhil.knock_sense",
+            "certificate_hash": "303cded197e3034c2855f4112946f02ce3bfdd0e"
+          }
+        },
+        {
+          "client_id": "537090303006-k320nt3o9vn8hqhha55q1ri1mqr66tij.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGDX0zcNWTSuPG1IMi-mYgmP3SIO6XysQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537090303006-k320nt3o9vn8hqhha55q1ri1mqr66tij.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

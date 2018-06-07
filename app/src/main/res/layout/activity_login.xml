@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/app_bar_without_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+    <EditText
+        android:id="@+id/login_mobile"
+        android:layout_width="match_parent"
+        android:hint="Email"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:singleLine="true" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+        <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:hint="Password"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:singleLine="true" />
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_gravity="right"
+        android:text="Log In"
+        android:textSize="20dp"
+        android:textColor="@color/text_colour"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/login_with_google"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        <TextView
+    android:gravity="right"
+    android:id="@+id/txt_register"
+    android:textColor="@color/colorPrimaryDark"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:text="Not Registered?"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    />
+    </LinearLayout>
+</LinearLayout>
